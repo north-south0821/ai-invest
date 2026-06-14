@@ -1,7 +1,10 @@
 # Cloudflare Pages + Astro configuration
 name = "ai-invest"
-pages_build_output_dir = "dist"
 compatibility_date = "2026-06-14"
+
+# Static assets directory (for wrangler deploy / wrangler pages deploy)
+[assets]
+directory = "./dist"
 
 # KV namespace for session storage
 [[kv_namespaces]]
