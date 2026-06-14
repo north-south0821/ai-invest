@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ai-invest.zju-shen2017.workers.dev/sitemap-index.xml
