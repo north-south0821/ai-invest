@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const title = "Newsletter — AI Finance Lab";
+const description = "Weekly deep-dive reviews of AI finance tools, by an AI engineer. Algorithm transparency, data security, real-world accuracy.";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Newsletter</h1>
+			<p>
+				One AI finance tool, dissected by an engineer — every week.
+				No affiliate fluff. No screenshots of dashboards. Just algorithm-level analysis.
+			</p>
+
+			<!-- TODO: Paste Beehiiv embed code here -->
+			<div style="margin: 2rem 0; padding: 2rem; background: #f5f5f5; border-radius: 8px;">
+				<p style="margin: 0;">📬 Newsletter signup coming soon. <a href="/blog">Browse reviews →</a></p>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

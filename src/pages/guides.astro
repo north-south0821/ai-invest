@@ -1,0 +1,27 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const title = "Guides — AI Finance Lab";
+const description = "Practical guides on choosing and using AI finance tools. What to look for, what to avoid, and how to protect your data.";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Guides</h1>
+			<p>
+				Practical guides on choosing and using AI finance tools — what to look for,
+				what to avoid, and how to protect your data when using AI-powered financial products.
+			</p>
+			<p>📝 Guides coming soon. <a href="/blog">Browse reviews →</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
