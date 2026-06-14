@@ -1,0 +1,9 @@
+# Cloudflare Pages + Astro configuration
+name = "ai-invest"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-06-14"
+
+# KV namespace for session storage
+[[kv_namespaces]]
+binding = "SESSION"
+id = "4e044aec54174d859371ac41d7877881"
